@@ -8,9 +8,9 @@ phases:
   build:
     commands:
       - echo Running HTML linter...
-      - htmlhint index.html
+      - htmlhint index.html || exit 1
       - echo Running CSS linter...
-      - stylelint style.css --config stylelint.config.js
+      - stylelint style.css --config stylelint.config.js || exit 1
 
 artifacts:
   files:
