@@ -1,288 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amruta Madkar - AWS Cloud Engineer Resume</title>
     <!-- Tailwind CSS CDN for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts - Inter for a clean and professional look -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-      /* Apply Inter font family to the body */
-      body {
-        font-family: "Inter", sans-serif;
-      }
+        /* Apply Inter font family to the body */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
     </style>
-  </head>
-  <body class="bg-gray-100 p-4 sm:p-6 md:p-8">
+</head>
+<body class="bg-gray-100 p-4 sm:p-6 md:p-8">
     <!-- Main container for the resume, centered with shadow and rounded corners -->
-    <div
-      class="max-w-4xl mx-auto bg-white rounded-lg shadow-xl overflow-hidden"
-    >
-      <!-- Header Section: Name, Title, and Contact Information -->
-      <header
-        class="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-6 sm:p-8 md:p-10 rounded-t-lg"
-      >
-        <!-- Name and Title -->
-        <div class="text-center">
-          <h1 class="text-3xl sm:text-4xl font-bold mb-1">Amruta Madkar</h1>
-          <p class="text-lg sm:text-xl font-light">AWS Cloud Engineer</p>
-        </div>
-        <!-- Contact Information with icons and responsive spacing -->
-        <div
-          class="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-4 text-sm sm:text-base"
-        >
-          <!-- Email Link -->
-          <a
-            href="mailto:amrutamadkar88@gmail.com"
-            class="flex items-center hover:underline"
-          >
-            <svg
-              class="w-4 h-4 mr-1"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
-              ></path>
-              <path
-                d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
-              ></path>
-            </svg>
-            amrutamadkar88@gmail.com
-          </a>
-          <!-- Phone Number Link -->
-          <a href="tel:+918007260799" class="flex items-center hover:underline">
-            <svg
-              class="w-4 h-4 mr-1"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
-              ></path>
-            </svg>
-            +918007260799
-          </a>
-          <!-- Location -->
-          <span class="flex items-center">
-            <svg
-              class="w-4 h-4 mr-1"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-            Pune, India
-          </span>
-        </div>
-      </header>
-
-      <!-- Main Content Area: Divided into two columns for better organization -->
-      <main class="p-6 sm:p-8 md:p-10 grid grid-cols-1 md:grid-cols-3 gap-8">
-        <!-- Left Column: Profile, Education, Certificates -->
-        <div class="md:col-span-1">
-          <!-- Profile Section -->
-          <section class="mb-8">
-            <h2
-              class="text-xl sm:text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-4 text-blue-800"
-            >
-              PROFILE
-            </h2>
-            <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
-              Highly accomplished AWS Cloud Engineer having experience in
-              designing, building, and deploying scalable, secure, and
-              user-focused cloud-native applications using a comprehensive suite
-              of AWS services and Angular. Proven expertise in cloud migration,
-              automation, monitoring, and optimizing cloud resources for
-              efficiency and reliability, consistently delivering modern
-              solutions that align with business objectives and user needs.
-            </p>
-          </section>
-
-          <!-- Education Section -->
-          <section class="mb-8">
-            <h2
-              class="text-xl sm:text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-4 text-blue-800"
-            >
-              EDUCATION
-            </h2>
-            <div class="mb-4">
-              <h3 class="font-semibold text-lg text-gray-800">
-                Computer Science and Engineering
-              </h3>
-              <p class="text-gray-700 text-sm">
-                Ashokrao Mane Group of Institutions
-              </p>
-              <p class="text-gray-600 text-xs">2020 | Kolhapur, India</p>
+    <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-xl overflow-hidden">
+        <!-- Header Section: Name, Title, and Contact Information -->
+        <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-6 sm:p-8 md:p-10 rounded-t-lg">
+            <!-- Name and Title -->
+            <div class="text-center">
+                <h1 class="text-3xl sm:text-4xl font-bold mb-1">Amruta Madkar</h1>
+                <p class="text-lg sm:text-xl font-light">AWS Cloud Engineer</p>
             </div>
-            <div>
-              <h3 class="font-semibold text-lg text-gray-800">
-                Diploma in Information Technology
-              </h3>
-              <p class="text-gray-700 text-sm">
-                Government Polytechnic Kolhapur
-              </p>
-              <p class="text-gray-600 text-xs">2017 | Kolhapur, India</p>
+            <!-- Contact Information with icons and responsive spacing -->
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-4 text-sm sm:text-base">
+                <!-- Email Link -->
+                <a href="mailto:amrutamadkar88@gmail.com" class="flex items-center hover:underline">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                    amrutamadkar88@gmail.com
+                </a>
+                <!-- Phone Number Link -->
+                <a href="tel:+918007260799" class="flex items-center hover:underline">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+                    +918007260799
+                </a>
+                <!-- Location -->
+                <span class="flex items-center">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                    Pune, India
+                </span>
             </div>
-          </section>
+        </header>
 
-          <!-- Certificates Section -->
-          <section>
-            <h2
-              class="text-xl sm:text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-4 text-blue-800"
-            >
-              CERTIFICATES
-            </h2>
-            <ul class="list-disc list-inside space-y-1 text-gray-700 text-sm">
-              <li>AWS Certified Cloud Practitioner</li>
-              <li>Cloud Computing Fundamentals</li>
-            </ul>
-          </section>
-        </div>
+        <!-- Main Content Area: Divided into two columns for better organization -->
+        <main class="p-6 sm:p-8 md:p-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Left Column: Profile, Education, Certificates -->
+            <div class="md:col-span-1">
+                <!-- Profile Section -->
+                <section class="mb-8">
+                    <h2 class="text-xl sm:text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-4 text-blue-800">PROFILE</h2>
+                    <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
+                        Highly accomplished AWS Cloud Engineer having experience</span> in designing, building, and deploying scalable, secure, and user-focused cloud-native applications using a comprehensive suite of AWS services and Angular. Proven expertise in cloud migration, automation, monitoring, and optimizing cloud resources for efficiency and reliability, consistently delivering modern solutions that align with business objectives and user needs.
+                    </p>
+                </section>
 
-        <!-- Right Column: Professional Experience, Skills -->
-        <div class="md:col-span-2">
-          <!-- Professional Experience Section -->
-          <section class="mb-8">
-            <h2
-              class="text-xl sm:text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-4 text-blue-800"
-            >
-              PROFESSIONAL EXPERIENCE
-            </h2>
-            <div class="mb-6 pb-4 border-b border-gray-200 last:border-b-0">
-              <h3 class="font-semibold text-lg text-gray-800">
-                AWS Cloud Engineer
-              </h3>
-              <p class="text-gray-700 text-sm mb-1">
-                Tata Consultancy Services | Dec 2021 - Present | Pune
-              </p>
-              <ul
-                class="list-disc list-outside ml-5 space-y-2 text-gray-700 text-sm"
-              >
-                <li>
-                  Successfully migrated
-                  <span class="font-medium"
-                    >multiple on-premises applications to AWS</span
-                  >
-                  (EC2, S3, RDS), enhancing system availability and improving
-                  fault tolerance, ensuring seamless business continuity.
-                </li>
-                <li>
-                  Engineered robust CI/CD pipelines using
-                  <span class="font-medium"
-                    >AWS CodePipeline, codeBuild and CodeDeploy</span
-                  >automating deployment workflows.
-                </li>
-                <li>
-                  Directed the automation of cloud infrastructure setup and
-                  deployment workflows utilizing
-                  <span class="font-medium"
-                    >Terraform and AWS CloudFormation</span
-                  >.
-                </li>
-                <li>
-                  Monitored performance and optimized cloud costs using
-                  <span class="font-medium">CloudWatch and billing alerts</span
-                  >, implementing effective policies via
-                  <span class="font-medium">IAM</span> that led to
-                  <span class="font-medium">cost savings</span> without
-                  compromising performance.
-                </li>
-                <li>
-                  Implemented proactive monitoring and alerting for critical
-                  systems using
-                  <span class="font-medium"
-                    >AWS CloudWatch, SNS, and Lambda</span
-                  >, improving incident response time.
-                </li>
+                <!-- Education Section -->
+                <section class="mb-8">
+                    <h2 class="text-xl sm:text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-4 text-blue-800">EDUCATION</h2>
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-gray-800">Computer Science and Engineering</h3>
+                        <p class="text-gray-700 text-sm">Ashokrao Mane Group of Institutions</p>
+                        <p class="text-gray-600 text-xs">2020 | Kolhapur, India</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg text-gray-800">Diploma in Information Technology</h3>
+                        <p class="text-gray-700 text-sm">Government Polytechnic Kolhapur</p>
+                        <p class="text-gray-600 text-xs">2017 | Kolhapur, India</p>
+                    </div>
+                </section>
 
-                <li>
-                  Designed and implemented sophisticated
-                  <span class="font-medium">AWS Connect</span> contact flows
-                  with dynamic routing and intelligent queue handling, which
-                  collectively streamlined customer interactions and enhanced
-                  service efficiency.
-                </li>
-
-                <li>
-                  Developed high-performance, accessibility-compliant frontend
-                  applications with <span class="font-medium">Angular</span>,
-                  using tools like
-                  <span class="font-medium">AXE, NVDA, and JAWS</span>, and
-                  maintained
-                  <span class="font-medium">90%+ unit test coverage</span>.
-                </li>
-                <li>
-                  Enforced
-                  <span class="font-medium"
-                    >IAM policies, NACLs, and Security</span
-                  >
-                  Groups to meet compliance and security standards.
-                </li>
-
-                <li>
-                  Designed and implemented secure
-                  <span class="font-medium"
-                    >Kong serverless gateway applications</span
-                  >
-                  leveraging
-                  <span class="font-medium"
-                    >AWS Lambda and Amazon API Gateway</span
-                  >
-                  to manage microservices, improving API response times.
-                </li>
-              </ul>
+                <!-- Certificates Section -->
+                <section>
+                    <h2 class="text-xl sm:text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-4 text-blue-800">CERTIFICATES</h2>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700 text-sm">
+                        <li>AWS Certified Cloud Practitioner</li>
+                        <li>Cloud Computing Fundamentals</li>
+                    </ul>
+                </section>
             </div>
-          </section>
 
-          <!-- Skills Section -->
-          <section>
-            <h2
-              class="text-xl sm:text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-4 text-blue-800"
-            >
-              SKILLS
-            </h2>
-            <div
-              class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-700"
-            >
-              <div>
-                <h3 class="font-semibold text-md text-gray-800">Technology:</h3>
-                <p>
-                  EC2, Auto-Scaling, Load Balancer, IAM, ECS, S3, Route53,
-                  Lambda, CloudFormation, CloudWatch, DynamoDB, RDS, DMS,
-                  Redshift, Glue, Docker, Terraform, Linux, Kubernetes, Bash
-                  Scripting
-                </p>
-              </div>
-              <div>
-                <h3 class="font-semibold text-md text-gray-800">
-                  Programming Languages:
-                </h3>
-                <p>Angular, HTML/CSS, JavaScript</p>
-              </div>
-              <div class="sm:col-span-2">
-                <h3 class="font-semibold text-md text-gray-800">Tools:</h3>
-                <p>
-                  Visual Studio, Intellij IDEA, GitHub, Bamboo, Bitbucket, AXE,
-                  NVDA, JAWS, SauceLabs
-                </p>
-              </div>
+            <!-- Right Column: Professional Experience, Skills -->
+            <div class="md:col-span-2">
+                <!-- Professional Experience Section -->
+                <section class="mb-8">
+                    <h2 class="text-xl sm:text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-4 text-blue-800">PROFESSIONAL EXPERIENCE</h2>
+                    <div class="mb-6 pb-4 border-b border-gray-200 last:border-b-0">
+                        <h3 class="font-semibold text-lg text-gray-800">AWS Cloud Engineer</h3>
+                        <p class="text-gray-700 text-sm mb-1">Tata Consultancy Services | Dec 2021 - Present | Pune</p>
+                        <ul class="list-disc list-outside ml-5 space-y-2 text-gray-700 text-sm">
+                            <li>Successfully migrated <span class="font-medium">multiple on-premises applications to AWS</span> (EC2, S3, RDS), enhancing system availability and improving fault tolerance, ensuring seamless business continuity.</li>
+                            <li>Engineered robust CI/CD pipelines using <span class="font-medium">AWS CodePipeline, codeBuild and CodeDeploy</span>automating deployment workflows.</li>
+                            <li>Directed the automation of cloud infrastructure setup and deployment workflows utilizing <span class="font-medium">Terraform and AWS CloudFormation</span>.</li>
+                            <li>Monitored performance and optimized cloud costs using <span class="font-medium">CloudWatch and billing alerts</span>, implementing effective policies via <span class="font-medium">IAM</span> that led to <span class="font-medium">cost savings</span> without compromising performance.</li>
+                            <li>Implemented proactive monitoring and alerting for critical systems using <span class="font-medium">AWS CloudWatch, SNS, and Lambda</span>, improving incident response time.</li>
+                                                       
+ <li>Designed and implemented sophisticated <span class="font-medium">AWS Connect</span> contact flows with dynamic routing and intelligent queue handling, which collectively streamlined customer interactions and enhanced service efficiency.</li>
+
+                            <li>Developed high-performance, accessibility-compliant frontend applications with <span class="font-medium">Angular</span>, using tools like <span class="font-medium">AXE, NVDA, and JAWS</span>, and maintained <span class="font-medium">90%+ unit test coverage</span>.</li>
+                                                        <li>Enforced <span class="font-medium">IAM policies, NACLs, and Security</span> Groups to meet compliance and security standards. </li>
+
+<li>Designed and implemented secure <span class="font-medium">Kong serverless gateway applications</span> leveraging <span class="font-medium">AWS Lambda and Amazon API Gateway</span> to manage microservices, improving API response times.</li>
+            
+ </ul>
+                    </div>
+                </section>
+
+                <!-- Skills Section -->
+                <section>
+                    <h2 class="text-xl sm:text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-4 text-blue-800">SKILLS</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-700">
+                        <div>
+                            <h3 class="font-semibold text-md text-gray-800">Technology:</h3>
+                            <p>EC2, Auto-Scaling, Load Balancer, IAM, ECS, S3, Route53, Lambda, CloudFormation, CloudWatch, DynamoDB, RDS, DMS, Redshift, Glue, Docker, Terraform, Linux, Kubernetes, Bash Scripting</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-md text-gray-800">Programming Languages:</h3>
+                            <p>Angular, HTML/CSS, JavaScript</p>
+                        </div>
+                        <div class="sm:col-span-2">
+                            <h3 class="font-semibold text-md text-gray-800">Tools:</h3>
+                            <p>Visual Studio, Intellij IDEA, GitHub, Bamboo, Bitbucket, AXE, NVDA, JAWS, SauceLabs</p>
+                        </div>
+                    </div>
+                </section>
             </div>
-          </section>
-        </div>
-      </main>
+        </main>
     </div>
-  </body>
-</html>
+</body>
+

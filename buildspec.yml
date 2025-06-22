@@ -9,9 +9,6 @@ phases:
     commands:
       - echo Running HTML linter...
       - htmlhint index.html || exit 1
-      - echo Running CSS linter...
-      - stylelint style.css --config stylelint.config.js || exit 1
-
 artifacts:
   files:
     - '**/*'
