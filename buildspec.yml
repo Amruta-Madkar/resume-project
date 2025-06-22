@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing HTML/CSS linter tools...
+      - npm install -g htmlhint stylelint stylelint-config-standard
+  build:
+    commands:
+      - echo Running HTML linter...
+      - htmlhint index.html
+      - echo Running CSS linter...
+      - stylelint style.css --config stylelint.config.js
+
+artifacts:
+  files:
+    - '**/*'
